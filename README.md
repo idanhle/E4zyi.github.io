@@ -6,7 +6,7 @@
 
 <hr>
 
-<img align="right" src="./img/logo.gif">
+<img align="right" src="./img/readme_logo.gif">
 
 <p align="left">
     Nhắn gửi crush rằng bạn thích họ:3 </br>

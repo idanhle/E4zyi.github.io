@@ -88,22 +88,22 @@ body
 
 .pos-1 
 {
-	grid-area: 1 / 36 / 14 / 42;
+	grid-area: 4 / 30 / 14 / 40;                  /*ah yes beautiful spot*/
 }
 
 .pos-2 
 {
-	grid-area: 43 / 1 / 51 / 10;
+	grid-area: 40 / 3 / 70 / 12;                 /*ah yes beautiful spot*/
 }
 
 .pos-3 
 {
- 	grid-area: 37 / 39 / 48 / 47;
+ 	grid-area: 37 / 39 / 48 / 47;                /*ah yes beautiful spot*/
 }
 
 .pos-4 
 {
-	grid-area: 10 / 1 / 26 / 7;
+	grid-area: 5 / 5 / 16 / 10;                  /*ah yes beautiful spot*/
 }
 
 /* Page Loader */

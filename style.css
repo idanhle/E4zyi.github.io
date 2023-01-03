@@ -1,0 +1,69 @@
+@font-face 
+{
+	font-family: myFont;
+	src: url(Pacifico-Regular.ttf);
+}
+  
+html, 
+body, 
+main 
+{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+body 
+{
+	margin: 0;
+    background-image: url("./bg.jpg");
+	--color-content-title-sub: #2b2a31; /* Title's color */
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: bilo, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.no-select 
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.content 
+{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: calc(100vh - 13rem);
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	max-height: 300px;
+}
+
+.content__title 
+{
+	font-family: myFont;
+	font-weight: 400;
+	font-size: 10vw;
+	margin: 10px 0;
+	line-height: 1;
+	position: relative;
+}
+
+.content__title-sub 
+{
+	color: var(--color-content-title-sub);
+	font-size: 4vw;
+	display: block;
+	margin-left: 3vw;
+	line-height: 0.5;
+}

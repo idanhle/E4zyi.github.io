@@ -17,8 +17,8 @@ main
 body 
 {
 	margin: 0;
-    background-image: url("./bg.jpg");
-	--color-content-title-sub: #2b2a31; /* Title's color */
+    background-image: url("./bg.png");
+	--color-content-title-sub: #ffffff; /* Title's color */
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;

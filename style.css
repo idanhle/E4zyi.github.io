@@ -16,10 +16,32 @@ main
 body 
 {
 	overflow: hidden;
-	--color-content-title: #ffffff;
+	--color_content_title: #ffffff;
     background-image: url("./bg.png");
 	background-position: center;
 	background-size: cover;
+}
+
+img
+{
+	border-radius: 50%;
+}
+
+.avatar
+{
+	position: relative;
+	display: flex;
+  	align-items: center;
+	left: 50px;
+}
+
+.content
+{
+	left: 50px;
+	font-family: font;
+	font-weight: 350;
+	font-size: 2vw;
+	color: var(--color_content_title);
 }
 
 .content_title
@@ -27,7 +49,7 @@ body
 	display: flex;
 	justify-content: center;
 	font-family: font;
-	font-weight: 400;
+	font-weight: 350;
 	font-size: 4vw;
-	color: var(--color-content-title);
+	color: var(--color_content_title);
 }

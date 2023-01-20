@@ -1,7 +1,7 @@
 @font-face 
 {
 	font-family: font;
-	src: url(Pacifico-Regular.ttf);
+	src: url(./storage/Pacifico-Regular.ttf);
 }
   
 html, 
@@ -16,40 +16,58 @@ main
 body 
 {
 	overflow: hidden;
-	--color_content_title: #ffffff;
-    background-image: url("./bg.png");
+    background-image: url("./storage/background.png");
 	background-position: center;
 	background-size: cover;
 }
 
-img
+a
 {
-	border-radius: 50%;
+	color: #e6e4e4;
+	text-decoration: none;
 }
 
-.avatar
+.title
 {
-	position: relative;
 	display: flex;
-  	align-items: center;
+	justify-content: center;
+	font-family: font;
+	font-size: 3vw;
+	color: #63abeed3;
+}
+
+.chest
+{
+	display: flex;
+	gap: 150px;
+}
+
+.content_gif
+{
+	border-radius: 50%;
+	position: relative;
 	left: 50px;
 }
 
 .content
 {
-	left: 50px;
 	font-family: font;
-	font-weight: 350;
-	font-size: 2vw;
-	color: var(--color_content_title);
+	color: #ffffff;
+	font-size: 1.75vw;
 }
 
-.content_title
+.contact_menu
 {
 	display: flex;
+  	justify-content: center;
+  	gap: 10px;
+}
+
+.contact_button
+{
+	display: flex;
+	align-items: center;
 	justify-content: center;
-	font-family: font;
-	font-weight: 350;
-	font-size: 4vw;
-	color: var(--color_content_title);
+	width: 64px;
+	height: 64px;
 }

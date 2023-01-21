@@ -27,15 +27,15 @@ a
 	text-decoration: none;
 }
 
-h1 
+.title_menu
 {
-	font-size: calc(1em + 2px);
+	display: flex;
+	justify-content: center;
+	gap: 100px;
 }
 
 .title
 {
-	display: flex;
-	justify-content: center;
 	font-family: font;
 	font-size: 3vw;
 	color: #63abeed3;
@@ -54,6 +54,18 @@ h1
 	left: 50px;
 	width: 350px;
 	height: 350px;
+}
+
+.small_gif
+{
+	width: 36px;
+	height: 36px;
+}
+
+.big_gif
+{
+	width: 64px;
+	height: 64px;
 }
 
 .content

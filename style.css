@@ -81,6 +81,13 @@ a
 	font-size: 1.75vw;
 }
 
+.information
+{
+	font-family: font;
+	color: #ffffff;
+	font-size: 1.5vw;
+}
+
 /* Saved Old Buttons for future purposes 
 
 .contact_text
@@ -144,7 +151,7 @@ a
 		width: 36px;
 		height: 36px;
 	}
-	
+
 	/*
 		.contact_button
 		{

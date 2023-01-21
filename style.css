@@ -16,7 +16,7 @@ main
 body 
 {
 	overflow: hidden;
-    background-image: url("./storage/background.png");
+    background-image: url("./storage/background_1.png");
 	background-position: center;
 	background-size: cover;
 }
@@ -25,6 +25,11 @@ a
 {
 	color: #e6e4e4;
 	text-decoration: none;
+}
+
+h1 
+{
+	font-size: calc(1em + 2px);
 }
 
 .title
@@ -47,6 +52,8 @@ a
 	border-radius: 50%;
 	position: relative;
 	left: 50px;
+	width: 350px;
+	height: 350px;
 }
 
 .content
@@ -70,4 +77,38 @@ a
 	justify-content: center;
 	width: 64px;
 	height: 64px;
+	transition: transform .2s;
+}
+
+.contact_button:hover
+{
+	transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 1000px) and (max-height:1000px)
+{
+	body
+	{
+		background-image: url(./storage/background_2.png);
+		background-size: cover;
+	}
+
+	.content_gif
+	{
+		width: 200px;
+		height: 200px;
+		left: 10px;
+	}
+
+	.chest
+	{
+  		gap: 50px;
+	}
+
+	.contact_button
+	{
+		width: 32px;
+		height: 32px;
+	}
 }

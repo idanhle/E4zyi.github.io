@@ -138,29 +138,29 @@ a
 
 	.title
 	{
-		font-size: 3vw;
+		font-size: 4.5vw;
 	}
 	
 	.chest
 	{
   		gap: 100px;
+		display: flex;
+      	justify-content: center;
 		display: block;
 	}
 
 	.content_src
 	{
-		width: 330px;
-		height: 330px;
-		margin-left: auto;
-		margin-right: auto;
-		left: 70px;
+		width: 300px;
+		height: 300px;
+		left: 25px;
 	}
 
 	.content
 	{
 		font-family: font;
 		color: #ffffff;
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 
 	.small_src
@@ -177,7 +177,7 @@ a
 
 	.information
 	{
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 
 	.infor_src

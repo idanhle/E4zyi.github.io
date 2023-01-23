@@ -6,6 +6,5 @@
 <hr>
 
 <div align="left">
-    <p> This is my personal page to introduce a litle about myself. </p>
-    <strong> Usage: </strong> You can make it yours by changing things in it but please put link to this reposity afterword.
+    <strong> Usage: </strong> You can make it yours by changing elements but remember to put this reposity's link into your page.
 </div>

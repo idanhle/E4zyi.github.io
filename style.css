@@ -50,7 +50,7 @@ a
 .chest
 {
 	display: flex;
-	gap: 100px;
+	gap: 65px;
 }
 
 .content_src
@@ -92,11 +92,15 @@ a
 	height: 8%;
 }
 
+/*
+
 .infor_src
 {
 	width: 1.75vw;
 	height: 1.75vw;
 }
+
+*/
 
 /* Saved Old Buttons for future purposes 
 
@@ -200,11 +204,15 @@ a
 		height: 7%;
 	}
 
+	/*
+
 	.infor_src
 	{
 		width: 4.5vw;
 		height: 4.5vw;
 	}
+
+	*/
 
 	/*
 		.contact_button

@@ -1,5 +1,5 @@
 <div align="center">
-    <h3> <strong> Ducca's Personal Page </strong> <h3>
+    <h3> <strong> Ducca's Personal Page (See it on PC for the best experience!) </strong> <h3>
     <img src="https://img.shields.io/github/last-commit/caodoc/caodoc.github.io?style=for-the-badge">
 </div>
 

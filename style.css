@@ -167,7 +167,7 @@ a
 	{
 		font-family: font;
 		color: #ffffff;
-		font-size: 5vw;
+		font-size: 3.5vw;
 		position: absolute;
 		top: 400px;
 	}
@@ -189,6 +189,6 @@ a
 		font-size: 4.5vw;
 		bottom: 0;
 		width: 95%;
-		height: 10%;;
+		height: 10%;
 	}
 }

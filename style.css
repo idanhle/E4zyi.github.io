@@ -164,7 +164,10 @@ a
 	{
 		width: 300px;
 		height: 300px;
-		left: 25px;
+		position: absolute;
+  		left: 0;
+  		right: 20px;
+  		margin: auto;
 	}
 
 	.content
@@ -172,6 +175,8 @@ a
 		font-family: font;
 		color: #ffffff;
 		font-size: 4vw;
+		position: absolute;
+		top: 400px;
 	}
 
 	.small_src

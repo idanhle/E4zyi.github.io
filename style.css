@@ -76,7 +76,27 @@ a
 	left: 50px;
 	width: 300px;
 	height: 300px;
+	transition: transform .2s;
 }
+
+.content_src:hover
+{
+	transform: scale(1.05);
+}
+
+.big_src
+{
+	width: 72px;
+	height: 72px;
+	transition: transform .2s;
+}
+
+.big_src:hover
+{
+	transform: scale(1.15);
+}
+
+/* small images
 
 .small_src
 {
@@ -84,11 +104,7 @@ a
 	height: 36px;
 }
 
-.big_src
-{
-	width: 72px;
-	height: 72px;
-}
+*/
 
 /* Saved Old Buttons for future purposes 
 
@@ -165,12 +181,6 @@ a
 		position: absolute;
 	}
 
-	.small_src
-	{
-		width: 18px;
-		height: 18px;
-	}
-
 	.big_src
 	{
 		width: 36px;
@@ -184,4 +194,13 @@ a
 		width: 95%;
 		height: 10%;
 	}
+	/*
+	
+	.small_src
+	{
+		width: 18px;
+		height: 18px;
+	}
+	
+	*/
 }

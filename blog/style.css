@@ -29,6 +29,12 @@ a
     height: 5%;
     width: 5%;
     padding-bottom: 15px;
+    transition: transform .2s;
+}
+
+.button:hover
+{
+    transform: scale(1.15);
 }
 
 .title

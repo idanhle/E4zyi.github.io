@@ -154,22 +154,15 @@ a
 
 	.content_src
 	{
-		width: 300px;
-		height: 300px;
-		position: absolute;
-  		left: 0;
-  		right: 20px;
-  		margin: auto;
-		top: 75px;
+		display: none;
 	}
 
 	.content
 	{
 		font-family: font;
 		color: #ffffff;
-		font-size: 3.5vw;
+		font-size: 5vw;
 		position: absolute;
-		top: 400px;
 	}
 
 	.small_src

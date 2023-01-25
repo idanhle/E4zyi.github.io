@@ -49,6 +49,25 @@ a
 	gap: 65px;
 }
 
+.content
+{
+	font-family: font;
+	color: #ffffff;
+	font-size: 1.75vw;
+	padding-right: 50px;
+}
+
+.information
+{
+	font-family: font;
+	color: #ffffff;
+	font-size: 1.75vw;
+	position: absolute;
+    bottom: 0;
+	width: 55%;
+	height: 10%;
+}
+
 .content_src
 {
 	border-radius: 50%;
@@ -69,25 +88,6 @@ a
 {
 	width: 72px;
 	height: 72px;
-}
-
-.content
-{
-	font-family: font;
-	color: #ffffff;
-	font-size: 1.75vw;
-	padding-right: 50px;
-}
-
-.information
-{
-	font-family: font;
-	color: #ffffff;
-	font-size: 1.75vw;
-	position: absolute;
-    bottom: 0;
-	width: 55%;
-	height: 10%;
 }
 
 /* Saved Old Buttons for future purposes 

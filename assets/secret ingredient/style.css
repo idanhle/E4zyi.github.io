@@ -1,0 +1,15 @@
+body
+{
+    overflow: hidden;
+    background-color: #36393f;
+}
+
+.content
+{
+    font-size: 3vw;
+}
+
+.vd
+{
+    max-width: 750px;
+}

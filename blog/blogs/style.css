@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: font;
-    src: url(./blogs/src/font/Pacifico-Regular.ttf);
+    src: url(./src/font/Pacifico-Regular.ttf);
 }
 
 body
@@ -20,26 +20,21 @@ a
     padding-left: 50px;
     padding-right: 50px;
     font-family: font;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     color: #ffffff;
 }
 
 .title
 {
-    padding-left: 65px;
-}
-
-.title_blog
-{
-    padding-left: 0px;
-    font-size: 2.5vw;
+    font-size: 3vw;
+    padding-left: 75px;
 }
 
 .information
 {
 	position: absolute;
     bottom: 0;
-	height: 10%;
+	height: 5%;
     left: 80%;
     font-family: font;
     font-size: 1.75vw;

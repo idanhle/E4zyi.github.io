@@ -24,9 +24,16 @@ a
     color: #ffffff;
 }
 
+.button
+{
+    height: 5%;
+    width: 5%;
+    padding-bottom: 15px;
+}
+
 .title
 {
-    padding-left: 65px;
+    padding-left: 25px;
 }
 
 .title_blog
@@ -73,5 +80,10 @@ a
 	    height: 10%;
         left: 50%;
         font-size: 4vw;
+    }
+
+    .button
+    {
+        display: none;
     }
 }

@@ -27,7 +27,14 @@ a
 .title
 {
     font-size: 3vw;
-    padding-left: 75px;
+    font-family: font;
+    color: #ffffff;
+}
+
+.button
+{
+    height: 2.5%;
+    width: 2.5%;
 }
 
 .information
@@ -67,5 +74,10 @@ a
 	    height: 3%;
         left: 50%;
         font-size: 4vw;
+    }
+
+    .button
+    {
+        display: none;
     }
 }

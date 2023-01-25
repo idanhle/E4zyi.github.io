@@ -22,6 +22,12 @@ body
 	height: 75%;
 }
 
+.button
+{
+    width: 3vw;
+    height: 3vw;
+}
+
 @media screen and (max-width: 1000px)
 {
     .content
@@ -37,6 +43,11 @@ body
         bottom: 0;
         left: 50%;
 	    width: 75%;
-	    height: 45%;
+	    height: 35%;
+    }
+
+    .button
+    {
+        display: none;
     }
 }

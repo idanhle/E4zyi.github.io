@@ -1,18 +1,12 @@
-@font-face 
-{
-    font-family: font;
-    src: url(./blogs/src/Pacifico-Regular.ttf);
-}
-
-
 body 
 {
 	overflow: hidden;
-    background-image: url("./blogs/src/media/background.png");
+    background-image: url("./assets/background.png");
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
 	background-size: cover;
+
 }
 
 a
@@ -23,10 +17,10 @@ a
 .content
 {
     padding-left: 50px;
-    padding-right: 50px;
-    font-family: font;
+    padding-right: 50px;    
+    font-family: "JetBrains Mono", "Inter", sans-serif;
     font-size: 32px;
-    color: #ffffff;
+    color: #ffffff;    
 }
 
 .title
@@ -52,7 +46,7 @@ a
     bottom: 0;
     right: 10px;
     text-align: center;
-    font-family: font;
+    font-family: "JetBrains Mono", "Inter", sans-serif;
     font-size: 24px;
 	color: #ffffff;
     transition: all 250ms;

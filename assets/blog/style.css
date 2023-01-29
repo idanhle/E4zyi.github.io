@@ -1,0 +1,55 @@
+body 
+{
+	overflow: hidden;
+    background-image: url(./assets/background.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+}
+
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title
+{
+    font-size: 32px;
+    color: #000000;
+}
+
+.description
+{
+    font-size: 24px;
+    color: #000000;
+}
+
+.blog
+{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1000px)
+{
+    
+
+    .content
+    {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 24px;
+    }
+    
+
+}

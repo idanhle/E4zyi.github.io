@@ -1,18 +1,15 @@
 body 
 {
-	overflow: hidden;
-    background-image: url(./assets/background.jpg);
-	background-position: center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat; 
-	background-size: cover;
+	overflow-x: hidden;
+    background-color: #36393f;
     font-family: "JetBrains Mono", monospace;
     font-weight: bold;
+    color: #cdd6f4;
 }
 
 a
 {
-    color: #ffffff;
+    color: #cdd6f4;
     text-decoration: none;
 }
 
@@ -25,31 +22,39 @@ a
 .title
 {
     font-size: 32px;
-    color: #000000;
 }
 
 .description
 {
     font-size: 24px;
-    color: #000000;
 }
 
 .blog
 {
     font-size: 24px;
-    color: #ffffff;
 }
 
 @media screen and (max-width: 1000px)
 {
-    
-
     .content
     {
         padding-left: 25px;
         padding-right: 25px;
+        font-size: 16px;
+    }
+
+    .title
+    {
         font-size: 24px;
     }
-    
 
+    .description
+    {
+        font-size: 16px;
+    }
+
+    .blog
+    {
+        font-size: 16px;
+    }
 }

@@ -3,14 +3,13 @@ body
 	overflow-x: hidden;
     background-color: #36393f;
     font-family: "JetBrains Mono", monospace;
-    font-weight: bold;
     color: #cdd6f4;
 }
 
 a
 {
     color: #cdd6f4;
-    text-decoration: none;
+    text-decoration-color: #89b4fa;
 }
 
 .content
@@ -22,11 +21,19 @@ a
 .title
 {
     font-size: 32px;
+    font-weight: bold;
 }
 
 .description
 {
     font-size: 24px;
+    font-weight: bold;
+}
+
+.blog_title
+{
+    font-weight: bold;
+    font-size: 28px;
 }
 
 .blog
@@ -51,6 +58,11 @@ a
     .description
     {
         font-size: 16px;
+    }
+
+    .blog_title
+    {
+        font-size: 20px;
     }
 
     .blog

@@ -31,26 +31,6 @@ a
     font-size: 24px;
 }
 
-.topleft
-{
-    color: #f25022;
-}
-
-.topright
-{
-    color: #7fba00;
-}
-
-.bottomleft
-{
-    color: #00a4ef;
-}
-
-.bottomright
-{
-    color: #ffb900;
-}
-
 @media screen and (max-width: 1000px)
 {
     .content

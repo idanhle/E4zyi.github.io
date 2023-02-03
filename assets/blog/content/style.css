@@ -36,6 +36,17 @@ a
     max-width: 60%;
 }
 
+.image_sqr
+{
+    max-width: 70%;
+}
+
+.codelang
+{
+    font-size: 20px;
+    padding-left: 0px;
+}
+
 @media screen and (max-width: 1000px)
 {
     .content
@@ -58,5 +69,10 @@ a
     .image_rec
     {
         max-width: 100%;
+    }
+
+    .image_sqr
+    {
+        max-width: 75%;
     }
 }

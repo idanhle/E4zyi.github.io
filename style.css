@@ -28,14 +28,14 @@ a
 
 a:hover
 {
-	font-size: 32px;
- 	font-size-adjust: 20px;
+	font-size: 28px;
+ 	font-size-adjust: 10px;
 }
 
 #container
 {
 	margin: auto auto;
-	max-width: 850px;
+	max-width: 730px;
 	font-family: font;
 	color: #ffffff;
 }
@@ -46,23 +46,18 @@ a:hover
 	color: #63abee;
 }
 
-#title_src
+#title_small
 {
-	width: 72px;
-	height: 72px;
-	transition: transform .2s;
-}
-
-#title_src:hover
-{
-	transform: scale(1.2);
+	font-weight: normal;
+	font-size: 28px;
+	color: #ffffff;
 }
 
 #avatar
 {
 	position: relative;
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%;
 	transition: transform .2s;
 }
@@ -75,7 +70,7 @@ a:hover
 #chest
 {
 	display: flex;
-	gap: 50px;
+	gap: 30px;
 }
 
 #content
@@ -99,19 +94,28 @@ a:hover
 		font-size: 32px;
 	}
 	
-	#title_src
+	#title_small
 	{
-		display: none;
+		font-size: 24px;
+	}
+
+	#chest
+	{
+		display: block;
 	}
 
 	#avatar
 	{
-		display: none;
+		width: 250px;
+		height: 250px;
+		position: relative;
+    	left: 50%;
+    	transform: translate(-50%)
 	}
 
 	#content
 	{
-		font-size: 24px;
+		font-size: 20px;
 		width: fit-content;
 	}
 

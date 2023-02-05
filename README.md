@@ -1,5 +1,5 @@
 <div align="center">
-    <h2> <strong> Ducca's Personal Page </strong> <h2>
+    <h3> <strong> Ducca's Personal Page </strong> <h3>
 </div>
 
 <h3> <strong> Preview: </strong> </h3>

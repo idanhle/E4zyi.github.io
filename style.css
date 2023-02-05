@@ -12,7 +12,7 @@
 body 
 {
 	overflow: hidden;
-    background-image: url("./assets/background.png");
+    background-image: url("./assets/background.jpg");
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
@@ -43,7 +43,7 @@ a:hover
 #title
 {
 	font-size: 48px;
-	color: #63abee;
+	color: #ffffff;
 }
 
 #title_small
@@ -89,6 +89,13 @@ a:hover
 
 @media screen and (max-width: 1000px)
 {
+	body 
+	{
+		overflow: auto;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
 	#title
 	{
 		font-size: 32px;
@@ -110,7 +117,7 @@ a:hover
 		height: 250px;
 		position: relative;
     	left: 50%;
-    	transform: translate(-50%)
+    	transform: translate(-50%);
 	}
 
 	#content
@@ -121,6 +128,8 @@ a:hover
 
 	#footer
 	{
+		position: relative;
+		text-align: center;
 		font-size: 16px;
 	}
 }

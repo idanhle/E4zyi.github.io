@@ -9,6 +9,8 @@
 
 <h3> <strong> About </strong> </h3>
 
+<p> <a href="https://caodoc.github.io"> Visit main page</a>. </p>
+
 <p> Read about the owner and website <a href="https://caodoc.github.io/assets/blog/content/about.html"> here</a>. </p>
 
 <p> Monthly update. </p>

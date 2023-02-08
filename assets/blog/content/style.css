@@ -1,14 +1,20 @@
 body 
 {
-	overflow-x: hidden;
-    background-color: #36393f;
+    overflow-x: auto;
+	overflow-y: auto;
+    background-image: url("./assets/main/background.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-color: #36393f;
     font-family: "JetBrains Mono", monospace;
-    color: #cdd6f4;
+    color: #ffffff;
 }
 
 a
 {
-    color: #cdd6f4;
+    color: #ffffff;
     text-decoration-color: #89b4fa;
 }
 

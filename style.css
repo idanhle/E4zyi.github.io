@@ -18,19 +18,14 @@ body
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
 	background-size: cover;
+	background-color: #36393f;
 }
 
 a
 {
 	color: #ffffff;
-	text-decoration: none;
+	text-decoration-color: #89b4fa;
 	transition: all 250ms;
-}
-
-a:hover
-{
-	font-size: 28px;
- 	font-size-adjust: 10px;
 }
 
 #container

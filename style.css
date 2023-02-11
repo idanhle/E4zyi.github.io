@@ -1,9 +1,3 @@
-@font-face 
-{
-	font-family: font;
-	src: url(./assets/Pacifico-Regular.ttf);
-}
-
 * 
 {
 	box-sizing: border-box;
@@ -19,6 +13,9 @@ body
 	background-repeat: no-repeat; 
 	background-size: cover;
 	background-color: #36393f;
+	font-family: "JetBrains Mono", monospace;
+	color: #ffffff;
+	font-size: 16px;
 }
 
 a
@@ -31,22 +28,17 @@ a
 #container
 {
 	margin: auto auto;
-	max-width: 730px;
-	font-family: font;
-	color: #ffffff;
+	max-width: 750px;
 }
 
 #title
 {
 	font-size: 48px;
-	color: #ffffff;
 }
 
-#title_small
+#article
 {
-	font-weight: normal;
-	font-size: 28px;
-	color: #ffffff;
+	max-width: 300px;
 }
 
 #avatar
@@ -78,7 +70,7 @@ a
 {
 	position: relative;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 @media screen and (max-width: 1000px)
@@ -87,15 +79,15 @@ a
 	{
 		font-size: 32px;
 	}
-	
-	#title_small
-	{
-		font-size: 24px;
-	}
 
 	#chest
 	{
 		display: block;
+	}
+
+	#article
+	{
+		max-width: 100%;
 	}
 
 	#avatar

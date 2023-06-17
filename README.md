@@ -1,15 +1,14 @@
 <div align="center">
-    <h3> <strong> Only Ducca - Ducca's Personal Page </strong> <h3>
+    <h3> <strong> CC </strong> <h3>
 </div>
 
 <h3> <strong> Preview: </strong> </h3>
-<img src="./assets/review.png" align="center">
 
 <hr>
 
 <h3> <strong> About </strong> </h3>
 
-Visit the website <a href="https://caodoc.github.io"> here</a>.
+Visit the website <a href="https://e4zyi.github.io"> here</a>.
 
 <p class="title_s"> About the website: </p>
 <ul>

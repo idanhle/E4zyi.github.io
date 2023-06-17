@@ -1,19 +1,13 @@
-<div align="center">
-    <h3> <strong> CC </strong> <h3>
-</div>
+# Responsive Portfolio Website Alexa
+## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
+### Responsive Portfolio Website Alexa
 
-<h3> <strong> Preview: </strong> </h3>
+- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
+- Smooth scrolling in each section.
+- Includes a light and dark mode.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-<hr>
+💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
-<h3> <strong> About </strong> </h3>
-
-Visit the website <a href="https://e4zyi.github.io"> here</a>.
-
-<p class="title_s"> About the website: </p>
-<ul>
-    <li> <p> This is my first time writing a website using HTML and CSS. </p> </li>
-    <li> <p> Hosted on <a href="https://github.com"> Github</a>. </p> </li>
-    <li> <p> Usage: MIT License. </p> </li>
-    <li> <p> It's not that perfect like others but it's my time and what I have spent all my Tet for (instead of go out, touch some grass and find a gf). </p> </li>
-</ul>
+![preview img](/preview.png)
